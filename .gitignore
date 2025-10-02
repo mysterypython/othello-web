@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# build cache
+build/
+!build/web/
+!build/web/index.html
+!build/web/favicon.png
+!build/web/othello.apk
