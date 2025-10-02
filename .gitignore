@@ -11,3 +11,7 @@ build/
 !build/web/index.html
 !build/web/favicon.png
 !build/web/othello.apk
+
+# ignore extra files
+assets/
+main.py
