@@ -5,12 +5,14 @@
 __pycache__/
 *.pyc
 
-# build cache
-build/
+# allow specific build/web files (must come before the ignore rule)
 !build/web/
 !build/web/index.html
 !build/web/favicon.png
 !build/web/othello.apk
+
+# ignore everything else in build
+/build/
 
 # ignore extra files
 assets/
