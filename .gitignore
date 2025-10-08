@@ -5,10 +5,8 @@
 __pycache__/
 *.pyc
 
-# ignore everything else in build
+# build
 build/*
-
-# allow specific build/web files
 !build/web/
 !build/web/index.html
 !build/web/favicon.png
