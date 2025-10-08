@@ -6,11 +6,7 @@ __pycache__/
 *.pyc
 
 # build
-build/*
-!build/web/
-!build/web/index.html
-!build/web/favicon.png
-!build/web/othello.apk
+build/
 
 # ignore extra files
 assets/
